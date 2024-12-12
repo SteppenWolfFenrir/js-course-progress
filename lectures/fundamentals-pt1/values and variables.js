@@ -11,3 +11,5 @@ assign their values according to your own country (population in millions)
 let country = 'Russia';
 let continent = 'South Europe';
 let population = 146;
+
+console.log(country, continent, population);
