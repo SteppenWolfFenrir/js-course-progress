@@ -15,4 +15,25 @@ not, log 'Portugal does not meet your criteria :('
 change some variables in order to make the condition true (unless you live in
 Canada :D)
 
- */
+*/
+
+let population = 146;
+
+
+let isIsland = false;
+let language = 'Russian';
+let country = 'Russia';
+
+if (language === 'English' && isIsland && population < 50) {
+  console.log(`You should live in ${country} :)`)
+} else console.log(`${country} does not meet your criteria :(`);
+
+country  = 'Portugal';
+language = 'English';
+population = 30;
+
+if (language === 'English' && !isIsland && population < 50) {
+  console.log(`You should live in ${country} :)`)
+} else console.log("It is not");
+
+// =>>> ternary-operator.js

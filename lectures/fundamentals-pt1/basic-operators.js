@@ -13,4 +13,27 @@ have less people than the average country?
 which contains a string with this format: 'Portugal is in Europe, and its 11 million
 people speak portuguese'
 
- */
+*/
+
+let population = 146;
+
+const continent = 'South Europe';
+const isIsland = false;
+const language = 'Russian';
+const country = 'Russia';
+
+let populationRussia = 146;
+let newPopulation = (populationRussia / 2);
+newPopulation++
+console.log(newPopulation);
+
+let populationFinland = 6;
+console.log(populationRussia > populationFinland);
+
+let averagePopulation = 33;
+console.log(populationRussia < averagePopulation);
+
+let description = `Russia is in ${continent}, and its ${population} million people speak ${language}`
+console.log(description);
+
+// =>>> strings-and-template-literals.js

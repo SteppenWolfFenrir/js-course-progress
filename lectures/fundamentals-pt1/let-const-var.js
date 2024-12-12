@@ -9,3 +9,15 @@ change, and which might change?). Then, change these variables to const.
 3. Try to change one of the changed variables now, and observe what happens
 
  */
+
+let population = 146;
+
+const continent = 'South Europe';
+const isIsland = false;
+const language = 'Russian';
+const country = 'Russia';
+
+country = 'Germany';
+console.log(country);
+
+// =>>> basic-operators.js

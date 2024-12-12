@@ -21,3 +21,13 @@ when you input 1
 situation
 
  */
+
+let numbNeighbours = prompt('How many neighbour countries does your country have?');
+
+if (numbNeighbours === 1) {
+  console.log('Only 1 border!');
+} else if (numbNeighbours > 1) {
+  console.log('More than 1 border!');
+} else if (numbNeighbours <= 0) {
+  console.log('No borders');
+}

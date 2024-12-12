@@ -10,3 +10,9 @@ one word changes between these two sentences!
 130. See the different results, and set the population back to original
 
  */
+let country = 'Russia';
+let population = 146;
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average.`);
+
+population = 14.6;
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average.`);

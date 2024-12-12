@@ -10,3 +10,12 @@ minus the country's population)
 130. See the different results, and set the population back to original
 
  */
+
+let population = 146;
+let averagePopulation = 33;
+
+if (population > 33) {
+  console.log("Russia's population is above average");
+} else {
+  console.log(`Russia's population is ${averagePopulation - population} million below average`);
+}

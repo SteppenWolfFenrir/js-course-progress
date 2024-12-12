@@ -13,3 +13,6 @@ let continent = 'South Europe';
 let population = 146;
 
 console.log(country, continent, population);
+
+
+// =>>> data-types.js

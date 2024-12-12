@@ -8,10 +8,10 @@ BMI = mass / height ** 2 = mass / (height * height) (mass in kg
 and height in meter).
 
 Your tasks:
-1. 2. 3. Store Mark's and John's mass and height in variables
-Calculate both their BMIs using the formula (you can even implement both
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both
 versions)
-Create a Boolean variable 'markHigherBMI' containing information about
+3. Create a Boolean variable 'markHigherBMI' containing information about
 whether Mark has a higher BMI than John.
 
 Test data:
@@ -21,3 +21,29 @@ m tall.
 m tall.
 
  */
+
+let markWeight = 78;
+let johnWeight = 92;
+
+let markHeight = 1.69;
+let johnHeight = 1.95;
+
+let markBMI = markWeight / markHeight ** 2;
+let johnBMI = johnWeight / johnHeight ** 2;
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+
+// Another conditions
+
+markWeight = 95;
+johnWeight = 85;
+
+markHeight = 1.88;
+johnHeight = 1.76;
+
+markBMI = markWeight / markHeight ** 2;
+johnBMI = johnWeight / johnHeight ** 2;
+
+markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
