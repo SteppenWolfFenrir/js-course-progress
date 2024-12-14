@@ -66,6 +66,6 @@ This repository contains materials, notes, and completed tasks from the JavaScri
 
 | Section                 | File                                                                                         | Completed |
 |-------------------------|----------------------------------------------------------------------------------------------|-----------|
-| Objects                 | [objects.js](./lectures/fundamentals-pt2/objects/object.js)                                  | ✅         |
+| Objects                 | [objects.js](./lectures/fundamentals-pt2/objects/objects.js)                                 | ✅         |
 | Object Methods          | [object-methods.js](./lectures/fundamentals-pt2/objects/object-methods.js)                   | ✅         |
 | Dot vs Bracket Notation | [dot-vs-bracket-notation.js](./lectures/fundamentals-pt2/objects/dot-vs-bracket-notation.js) | ✅         |
