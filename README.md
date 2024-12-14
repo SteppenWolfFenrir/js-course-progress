@@ -21,6 +21,8 @@ This repository contains materials, notes, and completed tasks from the JavaScri
 
 ### Fundamentals - Part 1
 
+#### General 
+
 | Section                            | File                                                                                             | Completed |
 |------------------------------------|--------------------------------------------------------------------------------------------------|-----------|
 | Values and Variables               | [values-and-variables.js](./lectures/fundamentals-pt1/values-and-variables.js)                   | ✅         |
@@ -34,6 +36,8 @@ This repository contains materials, notes, and completed tasks from the JavaScri
 | Logical Operators (&&, , !)        | [logical-operators.js](./lectures/fundamentals-pt1/logical-operators.js)                         | ✅         |
 | The switch Statement               | [switch.js](./lectures/fundamentals-pt1/switch.js)                                               | ✅         |
 | The Conditional (Ternary) Operator | [ternary-operator.js](./lectures/fundamentals-pt1/ternary-operator.js)                           | ✅         |
+
+---
 
 ### Fundamentals - Part 2
 
@@ -55,7 +59,7 @@ This repository contains materials, notes, and completed tasks from the JavaScri
 
 #### Loops
 
-| Section                                 | File                                                                                                                     | Completed |
+| Section                                 | File                                                                                                                     | Completed | 
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------|
 | For Loops                               | [loop.js](./lectures/fundamentals-pt2/loops/loop.js)                                                                     | ✅         |
 | While Loop                              | [while-loop.js](./lectures/fundamentals-pt2/loops/while-loop.js)                                                         | ✅         |
