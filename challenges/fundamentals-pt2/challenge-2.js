@@ -7,16 +7,16 @@ the bill if the bill value is between 50 and 300, and if the value is different,
 20%.
 
 Your tasks:
-1. 2. 3. 4. Write a function 'calcTip' that takes any bill value as an input and returns
+1. Write a function 'calcTip' that takes any bill value as an input and returns
 the corresponding tip, calculated based on the rules above (you can check out
 the code from first tip calculator challenge if you need to). Use the function
 type you like the most. Test the function using a bill value of 100
-And now let's use arrays! So create an array 'bills' containing the test data
+2. And now let's use arrays! So create an array 'bills' containing the test data
 below
-Create an array 'tips' containing the tip value for each bill, calculated from
+3. Create an array 'tips' containing the tip value for each bill, calculated from
 the function you created before
 
-Bonus: Create an array 'total' containing the total values, so the bill + tip
+4. Bonus: Create an array 'total' containing the total values, so the bill + tip
 Test data: 125, 555 and 44
 
 Hint: Remember that an array needs a value in each position, and that value can
@@ -25,3 +25,22 @@ values (so don't store the tip values in separate variables first, but right in 
 array) 😉
 
  */
+
+let bill = 100;
+
+const calcTip = (bill) => {
+  if (bill >= 50 && bill <= 300) {
+    return 0.15 * bill
+  } else {
+    return 0.20 * bill
+  }
+}
+
+console.log(calcTip(bill));
+
+const bills = [100, 200, 300, 400, 450]
+const tips = bills.map(calcTip);
+console.log(tips);
+
+const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2], bills[3] + tips[3], bills[4] + tips[4]];
+console.log(total);

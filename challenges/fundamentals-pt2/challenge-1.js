@@ -10,10 +10,10 @@ A team only wins if it has at least double the average score of the other team.
 Otherwise, no team wins!
 
 Your tasks:
-1. 2. 3. Create an arrow function 'calcAverage' to calculate the average of 3 scores
-Use the function to calculate the average for both teams
-Create a function 'checkWinner' that takes the average score of each team
-as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner
+1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
+2. Use the function to calculate the average for both teams
+3. Create a function 'checkWinner' that takes the average score of each team
+as parameters ('avgDolphins' and 'avgKoalas'), and then logs the winner
 to the console, together with the victory points, according to the rule above.
 Example: "Koalas win (30 vs. 13)"
 
@@ -30,4 +30,26 @@ Hints:
 § To calculate average of 3 values, add them all together and divide by 3
 § To check if number A is at least double numb
 
- */
+*/
+
+
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKoalas = calcAverage(65, 54, 49);
+
+const checkWinner = (avgDolphins, avgKoalas) => {
+  if (avgDolphins >= (avgKoalas * 2)) {
+    return `Dolphins win (${avgDolphins} vs. ${avgKoalas})`
+  } else if (avgKoalas >= (avgDolphins * 2)) {
+    return `Koalas win (${avgKoalas} vs. ${avgDolphins})`
+  } else {
+    return 'No winner'
+  }
+}
+console.log(checkWinner(scoreDolphins, scoreKoalas));
+
+scoreDolphins = calcAverage(85, 54, 41);
+scoreKoalas = calcAverage(23, 34, 27);
+
+console.log(checkWinner(scoreDolphins, scoreKoalas));
